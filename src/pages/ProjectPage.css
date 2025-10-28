@@ -1,0 +1,110 @@
+.project-page {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  color: #ffffff;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.project-page h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(45deg, #00d4ff, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.project-intro {
+  font-family: "Inter", sans-serif;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.screenshots img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
+}
+.video-demo {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.video-demo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #00d4ff, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-video {
+  width: 30vh;
+  max-width: 900px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style: square;
+  text-align: left;
+  display: block; /* ✅ makes the button go below */
+  color: #cccccc;
+  margin: 0 auto 20px;
+  max-width: 800px;
+}
+
+.download-btn {
+  display: inline-block; /* centers properly */
+  margin-top: 30px;
+  background: linear-gradient(45deg, #00d4ff, #007bff);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+}
+.download-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
+}
+.github-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: linear-gradient(45deg, #333, #555);
+  color: white;
+  padding: 12px 25px;
+  margin-left: 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.github-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #555, #777);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+
