@@ -10,10 +10,10 @@ const projects = [
     route: "/projects/ecommerce",
   },
   {
-    title: "Portfolio Website",
-    description: "My personal portfolio website built with React.",
+    title: "EaseBook",
+    description: "A hotel and trip package booking app by flutter",
     imageUrl: "https://via.placeholder.com/250",
-    route: "#",
+    route: "/projects/easebook",
   },
   {
     title: "Foodify – A Zomato Clone Android App",

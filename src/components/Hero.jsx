@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../assets/profile1.jpg";
+import profile from "../assets/profile.png";
 import "./Hero.css";
 
 export default function Hero() {
@@ -45,7 +45,7 @@ export default function Hero() {
               Get in Touch
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1Ktynyh6hM04stD92i5V0ppZWU4J-LhVN/view?usp=sharing"
               className="btn-outline"
               target="_blank"
               rel="noopener noreferrer"

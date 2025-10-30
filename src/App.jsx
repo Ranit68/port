@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import ECommerceProject from "./pages/ECommerceProject";
 import Foodie from "./pages/Foodie";
+import EaseBook from "./pages/EaseBook";
 
 function App() {
   return (
@@ -38,6 +39,14 @@ function App() {
         element={
           <>
           <Foodie />
+          </>
+        }
+        />
+        <Route
+        path="/projects/easebook"
+        element={
+          <>
+          <EaseBook />
           </>
         }
         />
